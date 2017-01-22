@@ -6,7 +6,7 @@
 --How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 
-
+Working area is where all files are present. And in repository, all commited files are present. It is a place where files are recorded for first commit.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
