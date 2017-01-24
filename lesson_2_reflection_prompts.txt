@@ -1,35 +1,37 @@
-﻿What happens when you initialize a repository? Why do you need to do it?
+﻿--What happens when you initialize a repository? Why do you need to do it?
 
 
-
+When we use git command, repository is initialized. That means from now on we can start making commits. It is needed because we can track changes on our files.
 
 --How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 
 Working area is where all files are present. And in repository, all commited files are present. It is a place where files are recorded for first commit.
 
-How can you use the staging area to make sure you have one commit per logical
+--How can you use the staging area to make sure you have one commit per logical
 change?
 
 
+We can compare the files in with the working directory also the repository by using git diff and git diff --staged.
+
+--What are some situations when branches would be helpful in keeping your history
+ organized? How would branches help?
 
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+In some cases when we want to do some experiment on our project, then we can make a branch. and work on it.leaving the main branch alone.
+
+--How do the diagrams help you visualize the branch structure?
 
 
+By looking at the diagram, we can know about the parent commit. Also reachability concept can also be understood through branch structure.
 
-
-How do the diagrams help you visualize the branch structure?
-
-
-
-
-What is the result of merging two branches together? Why do we represent it in
+--What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+We can add a new tested feature to the master branch. 
 
 
 
-
-What are the pros and cons of Git’s automatic merging vs. always doing merges
+--What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+Automatic merging is important as the time taken would be less. As git doesnt has the machine learning, it sometimes cannot detect the similar changed codes. And shows the error frequently.
