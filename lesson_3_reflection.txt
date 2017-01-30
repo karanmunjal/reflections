@@ -1,13 +1,13 @@
-When would you want to use a remote repository rather than keeping all your work
+--When would you want to use a remote repository rather than keeping all your work
 local?
 
     
- When we want to share our project to the public, we use remote repository.
+ When we want to share our project to the public or collaborating with other people, we use remote repository.
 
 
 
 
-Why might you want to always pull changes manually rather than having Git
+--Why might you want to always pull changes manually rather than having Git
  automatically stay up-to-date with your remote repository?
 
     
@@ -16,36 +16,35 @@ Why might you want to always pull changes manually rather than having Git
 
 
 
-
+--
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
     
- Fill in your answer here
+ Cloning git repositories is fork, copying form github to computer is clone and adding a segment to the master is branch
 
 
 
-
-What is the benefit of having a copy of the last known state of the remote
+--What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
    
- Fill in your answer here
+ Let us take an example, if we are taking the flight, then it would be good to know the last known state of remote stored locally.
 
 
 
 
-How would you collaborate without using Git or GitHub?  What would be easier,
+--How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
     
- Fill in your answer here
+ We can collaborate by doing all the project work together in the same office or at the same place which would be a lot difficult. Using github would be a lot easier as it makes collaboration with other people a lot easier.
 
 
 
 
-When would you want to make changes in a separate branch rather than directly in
+--When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
 
-Fill in your answer here
+ When we have given a pull request. Directly merging the master saves time, but if we are working with collaborators then merging in the separate branch is a good option.
